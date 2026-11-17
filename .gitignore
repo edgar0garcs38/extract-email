@@ -1,0 +1,9 @@
+# Code only: ignore everything, then allow source files.
+# Client/company data (xlsx, csv, json, reports) must never be committed.
+*
+!*/
+!.gitignore
+!*.py
+!README.md
+!requirements.txt
+__pycache__/
